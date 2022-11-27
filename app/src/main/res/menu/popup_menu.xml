@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+       <item android:id="@+id/more"
+           app:showAsAction="always"
+           android:title="menu">
+           <menu>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            app:showAsAction="ifRoom"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/bookings"
+            android:icon="@drawable/tickets"
+            app:showAsAction="ifRoom"
+            android:title="bookings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            app:showAsAction="ifRoom"
+            android:title="help" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/contact_us"
+            app:showAsAction="ifRoom"
+            android:title="contact us" />
+           </menu>
+       </item>
+
+
+</menu>
